@@ -1,0 +1,185 @@
+:root{
+    --azul: #079BEE; 
+    --preta: #070707;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+
+body{
+    background: var(--preta);
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+header .logo{
+    margin-left: 15px;
+    color: var(--azul);
+    font-family: "Arial Black";
+    font-size: 55px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #B2B7B9;
+    margin-right: 50px;
+}
+
+header nav a:hover{
+    color: #FFFFFF;
+}
+
+/*album principal*/
+
+.album-principal{
+    font-size: 20px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('../img/head/folk_mainPage2.png');
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.album-principal .logologo{
+    margin-left: 25px;
+    margin-top: 2%;
+}
+
+.album-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 90px;
+    margin-left: 15px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.titulo{
+    margin-top: 0%;
+    font-size: 50px;
+    margin-left: 15px;
+}
+
+a { color: inherit; } 
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    margin-left: 15px;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: #079BEE;
+    color: white;
+    margin-left: 15px;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.box-trending{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+.box-pop{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+.box-brazil{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+.box-reb{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+.box-rap{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+.box-soundtrack{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+.box-jazz{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+.guia1{
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.guia2{
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.guia3{
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.guia4{
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.guia5{
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.guia6{
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.guia7{
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
